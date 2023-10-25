@@ -1,0 +1,4 @@
+# Vocab 
+- **Callback Function** - a definition of a function that is expected to be executed at a later point in time. What makes this function a callback is that it is passed into a *higher order function* as an argument.
+- **Anonymous Function** - a function that is defined, but not assigned to any variable.
+- **Arrow Function** - a function, but the way that it is defined varies slightly from a traditional function. Rather than using a function keyword, the structure of the function declaration relies on an arrow symbol (`=>`) placed between the function parameters and the function body. Additionally, when defining a function that contains one singular line of code, you don't need to use curly brackets to define the body of the function. Arrow functions are prominently used as anonymous callback functions.
