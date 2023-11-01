@@ -1,0 +1,13 @@
+## Resources
+- Synthetic Event Common Component Documentation: https://react.dev/reference/react-dom/components/common (scroll down to the `on___` items to see the list of available event listeners)
+
+## Vocab
+- **Event** - an action generally taken by the user that involves interacting in some manner with some element on a webpage. Common examples include performing some action when *clicking* on a button. The clicking of the button is the event that fires off the action. 
+- **default export** - the default item that will be imported when you import the entire file.
+- **synthetic events** - custom JavaScript events that are not true events. They are used by React to be able to listen for various events from the React event listeners without having them interfere with the browser's default event handling behavior. 
+- **event target** - the HTML element that on____ event listener is attached to. Any data that can be found from that input can be accessed through `event.target.____`
+- **onClick** - a React event listener that is created to listen for React's click synthetic event. The onClick event listener can be added to any HTML element by simply adding the `onClick` attribute, and providing a function as its value.
+- **onSubmit** - a React event listener that is created to listen for form submissions through React's submit synthetic event. The `onSubmit` event listener can be added to an HTML `form` and providing a function as its value. Note: Your submit handler should always accept an event parameter and call `event.preventDefault()`. Otherwise, the browser's default event handler will kick in which involves refreshing the page. 
+- **onChange** - a React event listener that is created to listen for any input value changes as they occur. Of the event listeners seen so far, this one varies the most from its vanilla version. The vanilla JS "click" event listener will only run the event handler AFTER the modified input is "blurred" (i.e. clicked away from). React's `onChange` event listener will fire off the event handler every time the value of that input is modified.
+- **onFocus** - a React event listener that is created to listen for a specific element (generally an input element) to be focused. An element is focused when it is selected. You may have seen that the browser will add an outline or some indicator to an input that you click on to notify the user of which input has been selected.
+- **onBlur** - a React event listener that is created to listen for a specific element (generally an input element) to be blurred. An element is blurred when it was previously selected, but has since been deselected through clicking away, hitting tab, etc. 
