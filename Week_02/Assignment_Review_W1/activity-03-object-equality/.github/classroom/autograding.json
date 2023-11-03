@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Object Equality Activity",
+      "setup": "",
+      "run": "node tests.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
