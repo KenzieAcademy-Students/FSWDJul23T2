@@ -1,0 +1,11 @@
+## Resources
+
+## Vocab
+- **Ternary Operator** - a ternary operator is, essentially, if/else logic in expression form. It is a singular expression that resolves to one of two values based on a condition. It is formatted as such:
+```js
+let result = condition ? trueValue : falseValue
+```
+If `condition` is true, `result` will be assigned `trueValue` (the value immediately after the `?`). But if `condition` is false, `result` will be assigned `falseValue` (the value immediately after the `:`). The ternary operator gets its name from the latin root *tern*, which means 3. The ternary operator has three parts: the condition, the true resolution, and the false resolution. Therefore, this only works to replace an if/else statement when an expression is needed. 
+- **Logical Operator** - logic in expression form. Ternary operators are specifically for if/else conditional logic. However, we can also use logical operators for situations where we have no else. For example, if a condition is true, render an element. Because React will not render a raw boolean value (i.e. `true` or `false`), we can use logical operators because they resolve to `true`, `false`, or whatever the second value is in a logical and operator.
+- **Logical AND Operator** - `condition1 && condition2` resolves to false if `condition1` fails, and because JavaScript uses truthy/falsey, the above operation will resolve to whatever `condition2`'s value is assuming it's not `false`, `undefined`, `0`, `null`, or `""`.
+- **Drilling Props** - the practice of making a certain value available through multiple component layers. For example, a value declared in `App.jsx` may be needed inside of a `InfoLine.jsx`. But `App` is not directly responsible for rendering `InfoLine`. The `InfoLine` is a component rendered by a `Table` component, where the `Table` component may be rendered directly in the `App`. Drilling props is simply the practice of taking a prop (or part of a prop) and passing it into another component as a prop.
