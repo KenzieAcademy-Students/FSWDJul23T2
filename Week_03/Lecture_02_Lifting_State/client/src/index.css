@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top-nav {
+  padding: 10px 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
