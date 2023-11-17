@@ -1,0 +1,16 @@
+.team-card {
+  width: 400px;
+  outline: 4px solid black;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.team-stats {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.empty-stat {
+  height: 21.5px;
+}

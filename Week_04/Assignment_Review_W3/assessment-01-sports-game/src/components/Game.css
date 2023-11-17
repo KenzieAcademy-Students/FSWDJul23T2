@@ -1,0 +1,12 @@
+.matchup {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.versus-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}

@@ -1,0 +1,88 @@
+body #root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#ffffff, #94cdbd);
+}
+
+.App {
+  width: 35%;
+  background: #183054;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.App h1 {
+  text-decoration: underline;
+  color: #94cdbd;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.App form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App form label {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  color: #fcc44c;
+  text-decoration: underline;
+}
+
+.App form label input {
+  border: 1px solid #fcc44c;
+  line-height: 20px;
+  margin: 5px;
+}
+
+.App form button {
+  width: 10%;
+  align-self: flex-end;
+  line-height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  margin: 5px;
+  background: green;
+  font-style: bold;
+}
+
+.App ul {
+  width: 100%;
+  padding-left: 0;
+  list-style: none;
+}
+
+.App ul li {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 2px solid #fcc44c;
+}
+
+.App ul li input {
+  width: 10%;
+  text-align: center;
+}
+
+.App ul li p {
+  width: 80%;
+  text-align: left;
+}
+
+.App ul li button {
+  width: 10%;
+  text-align: center;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-style: bold;
+}
