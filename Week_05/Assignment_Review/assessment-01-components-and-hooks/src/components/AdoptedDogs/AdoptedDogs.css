@@ -1,0 +1,10 @@
+.adopted {
+  width: 100px;
+  height: auto;
+}
+
+.photos {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

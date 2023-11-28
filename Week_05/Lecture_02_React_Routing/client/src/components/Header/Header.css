@@ -1,0 +1,25 @@
+.brand {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.brand,
+.brand:visited,
+.nav-link,
+.nav-link:visited {
+  text-decoration: none;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+.top-nav {
+  display: flex;
+  gap: 15px;
+}

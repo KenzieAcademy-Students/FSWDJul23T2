@@ -1,0 +1,6 @@
+.invalid {
+  outline: 2px solid red;
+}
+.valid {
+  outline: 2px solid green;
+}

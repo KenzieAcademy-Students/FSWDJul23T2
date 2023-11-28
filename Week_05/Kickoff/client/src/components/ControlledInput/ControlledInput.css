@@ -1,0 +1,13 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+input:invalid {
+  border: 2px solid red !important;
+}
+
+.error {
+  color: red;
+}
