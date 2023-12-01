@@ -1,0 +1,6 @@
+.container {
+  width: 400px;
+  background-color: magenta;
+  color: rgb(23, 0, 23);
+  outline: 2px solid yellow;
+}

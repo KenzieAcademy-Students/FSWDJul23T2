@@ -1,0 +1,19 @@
+form {
+  width: 20%;
+  margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+form label {
+  align-self: flex-start;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form label input,
+form label textarea {
+  width: 50%;
+}

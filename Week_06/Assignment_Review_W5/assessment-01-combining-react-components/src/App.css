@@ -1,0 +1,97 @@
+/* Your CSS Here */
+canvas {
+  display: none;
+}
+
+.list {
+  list-style: none;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box;
+  background-color: #999999;
+}
+#container {
+  margin: 0;
+}
+#main {
+  display: flex;
+  min-height: calc(100vh - 20vh);
+}
+#main > article {
+  flex: 1;
+}
+#main > nav {
+  flex: 0 0 20vw;
+  order: -1;
+}
+#main > aside {
+  border: 1px solid black;
+  flex: 0 0 20vw;
+}
+header,
+article,
+nav,
+aside {
+  padding: 1em;
+}
+header {
+  height: 10vh;
+}
+
+header {
+  align-items: center;
+  font-weight: bold;
+  background-color: #183054;
+  color: white;
+}
+
+.products {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+}
+
+.product-image {
+  height: 95px;
+  width: 100%;
+}
+
+.product-card {
+  border: 3px solid grey;
+  width: 125px;
+  margin: 3px;
+}
+
+.title {
+  padding: 6px;
+  font-size: 12px;
+  margin: 0;
+}
+
+.product-select {
+  width: 100%;
+  display: block;
+  position: relative;
+  border: 1.5px solid #fcc44c;
+  background-color: #fcc44c;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.register-form {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+
+#confirm {
+  display: flex;
+  flex-direction: column;
+}
