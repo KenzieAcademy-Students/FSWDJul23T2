@@ -1,0 +1,10 @@
+{
+  "name": "intro-to-express",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Follow the instructions provided on Kenzie Canvas for this assignment.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
