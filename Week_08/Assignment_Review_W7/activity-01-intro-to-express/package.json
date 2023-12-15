@@ -1,0 +1,30 @@
+{
+  "name": "fullstack-intro-to-express",
+  "version": "1.0.0",
+  "description": "Follow the instructions provided on Kenzie Canvas for this assignment.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenzieAcademy-Students/fullstack-intro-to-express.git"
+  },
+  "keywords": [],
+  "author": "Cody Thaller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KenzieAcademy-Students/fullstack-intro-to-express/issues"
+  },
+  "homepage": "https://github.com/KenzieAcademy-Students/fullstack-intro-to-express#readme",
+  "dependencies": {
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
