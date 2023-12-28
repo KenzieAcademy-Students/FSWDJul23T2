@@ -1,0 +1,16 @@
+{
+  "name": "snippets",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "client": "npm run dev --workspace=client",
+    "server": "npm run dev --workspace=server",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\"  \"npm run client\""
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}

@@ -1,0 +1,36 @@
+.FullPageSpinner {
+  font-size: 4em;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.Spinner {
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .FullPageSpinner {
+    animation: spinner 1s infinite linear;
+  }
+  .Spinner {
+    animation: spinner 1s infinite linear;
+  }
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,17 @@
+.page-tweet .isLiked {
+  color: red;
+}
+.page-tweet .isLiked svg {
+  color: red;
+}
+
+.page-tweet__body--stats {
+  display: flex;
+  align-items: center;
+}
+
+.trash-icon {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
