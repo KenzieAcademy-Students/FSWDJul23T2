@@ -1,0 +1,94 @@
+@import "custom";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap");
+
+// Bootstrap 4 includes around two dozen CSS custom properties (variables).
+// These provide easy access to commonly used values like our theme colors,
+// breakpoints, and primary font
+// https://getbootstrap.com/docs/4.4/getting-started/theming/#variable-defaults
+
+a {
+  color: var($primary);
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  background: linear-gradient(#0e2039, #183054) no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-info {
+  background-color: #183054;
+}
+
+textarea {
+  resize: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $primary !important;
+}
+
+.nav-user {
+  color: white;
+}
+
+.rounded-edge {
+  margin-top: 20px;
+  border-radius: 0.3rem;
+  &:last-child {
+    border-radius: 0.3rem;
+  }
+}
+
+.username {
+  font-weight: 800;
+  font-size: large;
+}
+
+.hero-text {
+  margin-top: 60px;
+}
+
+.landing-text {
+  margin-top: 20px;
+  font-size: large;
+  font-weight: 50;
+}
+
+.landing-img-wrapper {
+  border-radius: 10px;
+}
+
+.media-position {
+  align-items: center;
+}
+
+.input-group-text {
+  box-sizing: border-box;
+  background: $decoration;
+  border: none;
+  font-weight: bolder;
+}
+
+// .input-group-text:invalid {
+//   border-color: $danger !important;
+// }
+
+// .input-group-text:valid {
+//   border-color: #198754 !important;
+// }
+
+// .modal-content {
+//   color: #021635;
+// }
+
+img.avatar {
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

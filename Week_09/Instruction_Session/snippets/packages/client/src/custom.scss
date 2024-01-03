@@ -1,0 +1,36 @@
+// Override default variables before the import
+$primary: #fcc44c;
+$secondary: #94cdbd;
+$info: #0e2039;
+$danger: #dc3545;
+$warning: #fcc44c;
+$header: #183054;
+$stone: #999999;
+$body-bg: #183054;
+$body-color: #ffffff;
+$font-family-base: "Raleway", sans-serif;
+$decoration: #2c85fb;
+$link-color: $secondary;
+$link-hover-color: $primary;
+$card-border-color: $decoration;
+
+// To modify an existing color in Bootstrap $theme-colors map,
+// add the following to your custom Sass file:
+// https://getbootstrap.com/docs/4.0/getting-started/theming/
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "info": $info,
+  "danger": $danger,
+  "warning": $warning,
+  "header": $header,
+  "stone": $stone,
+  "card-border-color": $decoration,
+);
+
+.card {
+  --bs-card-border-color: #{$card-border-color};
+}
+
+// Import Bootstrap and its default variables
+@import "bootstrap/scss/bootstrap.scss";
