@@ -1,0 +1,13 @@
+.profile-img-option {
+  width: 5em;
+}
+
+.image-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selected-img-option {
+  border: 5px solid #0d6efd;
+  border-radius: 15px;
+}
