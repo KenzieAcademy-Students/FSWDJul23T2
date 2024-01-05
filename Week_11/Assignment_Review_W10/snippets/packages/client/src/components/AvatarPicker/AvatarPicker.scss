@@ -1,0 +1,11 @@
+.selectable-avatar {
+  width: 4.5em;
+  height: auto;
+  cursor: pointer;
+}
+
+.selected-avatar {
+  border: 3px solid #fcc44c;
+  border-radius: 15px;
+  background-color: #fcc44c3f;
+}

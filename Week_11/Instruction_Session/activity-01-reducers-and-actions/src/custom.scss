@@ -1,0 +1,22 @@
+// Override default variables before the import
+$body-bg:#183054;
+$body-color: var(--white);
+$font-family-base: 'Raleway', sans-serif;
+$link-color: var(--secondary);
+$link-hover-color: var(--primary);
+
+// To modify an existing color in Bootstrap $theme-colors map,
+// add the following to your custom Sass file:
+// https://getbootstrap.com/docs/4.0/getting-started/theming/
+$theme-colors: (
+  'primary': #fcc44c,
+  'secondary': #94cdbd,
+  'info': #0e2039,
+  'danger': #183054,
+  'warning': #fcc44c,
+  'header': #183054,
+  'stone': #999999,
+);
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
