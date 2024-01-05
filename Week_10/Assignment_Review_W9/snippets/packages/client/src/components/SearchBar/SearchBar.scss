@@ -1,0 +1,16 @@
+.search-bar-container {
+  position: relative;
+}
+
+.clear-btn {
+  border: none;
+  background: none;
+  width: 1em;
+  margin: 0;
+  padding: 0;
+  height: 1em;
+  color: red;
+  position: absolute;
+  top: 20%;
+  right: 15px;
+}

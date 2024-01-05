@@ -1,0 +1,20 @@
+@import "../../custom.scss";
+
+.comment-card {
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  display: flex;
+  gap: 10px;
+  background: $info !important;
+  border-radius: 5px;
+}
+
+.comment-author {
+  display: flex;
+  align-items: flex-start;
+  font-size: 1.2em;
+}
+
+.comment-text {
+  font-size: 1em;
+}
