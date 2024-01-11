@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Federal Gunship",
+    "price": 1782915,
+    "imageUrl": "https://cdn-5f3c0a05c1ac180394b62f3c.closte.com/wp-content/uploads/2018/04/fgs-iso-jpg.jpg"
+  },
+  {
+    "name": "Federal Corvette",
+    "price": 187969450,
+    "imageUrl": "https://forums.frontier.co.uk/attachments/corvette-iso-jpg.261369/"
+  },
+  {
+    "name": "Anaconda",
+    "price": 146969450,
+    "imageUrl": "https://cdn-5f3c0a05c1ac180394b62f3c.closte.com/wp-content/uploads/2017/04/anaconda-iso-jpg.jpg"
+  },
+  {
+    "name": "Alliance Chieftain",
+    "price": 19382250,
+    "imageUrl": "https://cdn-5f3c0a05c1ac180394b62f3c.closte.com/wp-content/uploads/2017/04/chieftain-iso-jpg.jpg"
+  }
+]
